@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="85dp"
+        android:layout_height="119dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="23dp"
+        tools:srcCompat="@drawable/yourname" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Tên phim"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tập phim" />
+    </LinearLayout>
+
+</LinearLayout>
